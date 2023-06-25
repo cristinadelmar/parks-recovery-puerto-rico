@@ -11,17 +11,20 @@ Almost six years after Hurricane María, most of the parks and recreational faci
 
 ## Data Collection Process
 
-I downloaded data from the Puerto Rico Disaster Recovery Transparency Portal, an official portal of the Government of Puerto Rico, managed by the Central Office for Recovery, Reconstruction and Resiliency. This portal has data about the Federal Emergency Management Agency (FEMA) funds obligations to repair all the public infrastructure that was damaged as a consequence of the hurricane. I specifically looked for all the parks and recreational infrastructure own and managed by the municipalities. It includes the cultural center and the park located in the community where I grew up in the neighborhood of Santa Juana, in the town of Caguas. 
+I downloaded data from the Puerto Rico Disaster Recovery Transparency Portal, an official portal of the Government of Puerto Rico, managed by the Central Office for Recovery, Reconstruction and Resiliency. This portal has data about the Federal Emergency Management Agency (FEMA) funds obligations to repair all the public infrastructure that was damaged as a consequence of the hurricane. I specifically looked for all the parks and recreational infrastructure own and managed by the municipalities. 
+
+Then also dowloaded the data for the projects of the municipality of Caguas. It included the cultural center and the park located in the community where I grew up in the neighborhood of Santa Juana. 
 
 ## Data Analysis Process
 
 After collecting the data, I used pandas to clean it and to answer the questions I had about the status of the reparation of all the infrastructure categorized as a park, recreational facility or related. 
 
-Here is the CSV file:
+Here are the CSV files:
 
-•	Obligated projects by FEMA for parks and recreational facilities
+•	[Table1_Obligated_Projects.csv](https://github.com/cristinadelmar/parks-recovery-puerto-rico/blob/main/Table1_Obligated_Projects.csv)
+• [Table2_Caguas_for_graphics.csv](https://github.com/cristinadelmar/parks-recovery-puerto-rico/blob/main/Table2_Caguas_for_graphics.csv)
 
-I summed all the funds obligated and the amount that has been disbursed. I obtained a percentage.
+I added all the funds obligated and the amount that has been disbursed. I obtained a percentage.
 
 I also obtained the amount of projects for which the amount disbursed is 0 (868) and what percentage it represents in the total amount of projects with money obligated. 
 
